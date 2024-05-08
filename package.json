@@ -6,9 +6,16 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "devDependencies": {
-    "vite": "^5.2.0"
+    "vite": "^5.2.0",
+    "vite-plugin-copy": "^0.1.6",
+    "vite-plugin-cp": "^4.0.8"
+  },
+  "dependencies": {
+    "coi-serviceworker": "^0.1.7",
+    "gh-pages": "^6.1.1"
   }
 }
