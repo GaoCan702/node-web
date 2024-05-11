@@ -1,5 +1,5 @@
 import { WebContainer } from "@webcontainer/api";
 
-// Call only once
+console.log("Booting WebContainer...");
 
 const webcontainerInstance = await WebContainer.boot();
