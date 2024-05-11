@@ -9,10 +9,4 @@ export default defineConfig({
     outDir: "dist",
     target: "esnext",
   },
-
-  //   plugins: [
-  //     cp({
-  //       targets: [{ src: "_headers", dest: "dist" }],
-  //     }),
-  //   ],
 });
